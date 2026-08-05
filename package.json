@@ -1,0 +1,17 @@
+{
+  "name": "zeadx-ping-keysystem",
+  "version": "1.0.0",
+  "description": "Hệ thống quản lý key kích hoạt cho Zeadx Ping - Node.js + Express + SQLite",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "uuid": "^9.0.1"
+  }
+}
